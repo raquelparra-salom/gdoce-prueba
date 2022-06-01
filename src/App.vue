@@ -1,16 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HeaderPage title="Juega con la máquina"/>
+  <FormSearchNumber/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FormSearchNumber from './components/FormSearchNumber.vue'
+import HeaderPage from './components/HeaderPage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    FormSearchNumber,
+    HeaderPage,
+}
 }
 </script>
 
